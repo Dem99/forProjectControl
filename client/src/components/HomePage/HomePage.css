@@ -1,0 +1,90 @@
+.header {
+	padding: 10px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.navbar {
+	box-shadow: none;
+}
+
+.nav-logo {
+	display: flex;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header, .navbar {
+	background-color: #2196f3;
+}
+
+.title-text {
+	font-size: 3rem;
+}
+
+.modal-button {
+	font-weight: 600;
+	background-color: #ffffff;
+	color: #2196f3;
+}
+
+.modal-button {
+	display: inline-flex;
+}
+
+.modal-button:hover {
+	background-color:#2196f3;
+	color: #ffffff
+}
+
+.home-banner {
+	background-color: #2196f3;
+	color: #ffffff;
+	
+}
+
+.title-text {
+	font-weight: 700;
+
+}
+
+.banner-image img {
+	height: auto;
+}
+
+.banner-discr {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.auth-title h1 {
+	color: #2196f3;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.modal-content {
+	border-radius: 15px;
+}
+
+.auth-button button {
+	background-color: #ffffff;
+	border: 2px solid #2196f3;
+	color: #2196f3;
+}
+
+.auth-button button:hover {
+	background-color: #2196f3;
+	border: 2px solid #2196f3;
+	color: #ffffff;
+}
+
+.auth-input:focus {
+	border-bottom: 1px solid #2196f3!important;
+}
+
+label.active {
+	color: #2196f3!important;
+}
