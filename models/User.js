@@ -12,8 +12,13 @@ const schema = new Schema({
             type: String,
             required: true,
         },
-
-        links: [{type: Types.ObjectId, ref: 'Link' }]
+        
+        tasks: [
+            {
+                type: Types.ObjectId,
+                ref: 'Task'
+            }
+        ]
 
 })
 
