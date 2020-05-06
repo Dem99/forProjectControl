@@ -6,7 +6,12 @@ class HomeModal extends React.Component {
 		const M = window.M;
 		document.addEventListener('DOMContentLoaded', function () {
 			var elems = document.querySelectorAll('.modal');
-			var instances = M.Modal.init(elems, {});
+			var instances = M.Modal.init(elems, {onOpenStart: () => {
+				console.log("Open Start");
+			  }, onCloseEnd: () => {
+				console.log("Close End");
+			  },}
+			  );
 		});
 	}
 
