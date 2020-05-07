@@ -4,6 +4,8 @@ import { useMessage } from './../../hooks/message.hook.js';
 import './HomePage.css';
 import { useAuth } from '../../hooks/auth.hook.js';
 import { AuthContext } from '../../context/AuthContext.js';
+import {Loading} from './../../assets/utils/loading.js';
+
 export const Auth = () => {
     const auth = useContext(AuthContext);
     const message = useMessage();
@@ -49,6 +51,7 @@ export const Auth = () => {
         <div className="row auth">
             <div className="col s6 offset-s3 auth-wrapper">
                 <div className="row auth-box">
+                    <Loading className="loading-box" isLoading={loading} />
                     <form className="col s12 auth-form">
                         <div className="row auth-item">
                             <div className="input-field col s12">

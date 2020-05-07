@@ -1,0 +1,7 @@
+.progress {
+    position: absolutes;
+    background-color: #64b5f6!important;
+}
+.indeterminate {
+    background-color: #2196f3!important;
+}
